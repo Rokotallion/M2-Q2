@@ -25,6 +25,7 @@ const coneGeometry = new THREE.ConeGeometry( 0.7, 2, 64 );
 const coneMaterial = new THREE.MeshPhongMaterial( { color: 'red', specular: 'pink' } ); 
 const cone = new THREE.Mesh(coneGeometry, coneMaterial );
 
+// Sphere
 const sphereGeometry = new THREE.SphereGeometry( 1, 16, 8 ); 
 const sphereMaterial = new THREE.MeshPhongMaterial( { color: 'pink', specular: 'yellow' } ); 
 const sphere = new THREE.Mesh( sphereGeometry, sphereMaterial ); 
